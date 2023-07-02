@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+h1 {
+  color: green;
+}
+
+.Category {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.CategoryItem {
+  display: inline;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.CategoryItem div {
+  display: inline;
+  border: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: green;
+  color: white;
+}
+.TouristPlaces {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.TouristPlace {
+  margin: 1rem Auto;
+  background-color: lightgreen;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.Subheading {
+  text-align: center;
+  margin: auto;
+  text-align: justify;
+}
