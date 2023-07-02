@@ -1,7 +1,6 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  width: 500px;
   margin: auto;
 }
 h1 {
@@ -13,15 +12,15 @@ h1 {
   padding-inline-start: 0;
 }
 .CategoryItem {
-  display: inline;
+  display: inline-block;
   cursor: pointer;
   font-weight: bolder;
 }
 .CategoryItem div {
-  display: inline;
+  display: inline-blocks;
   border: 1rem;
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 1rem 0.5rem;
   border-radius: 1rem;
   background-color: green;
   color: white;
@@ -40,5 +39,6 @@ h1 {
 .Subheading {
   text-align: center;
   margin: auto;
+  max-width: 500px;
   text-align: justify;
 }
