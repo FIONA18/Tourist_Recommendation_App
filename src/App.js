@@ -12,7 +12,10 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>Hey Tourists!!!</h1>
+      <header>
+        <h1>Hey Tourists!!!</h1>
+      </header>
+
       <h2 class="Subheading">
         Tourism promotes intercultural understanding and fosters connections
         between people from different backgrounds. So, check out some of the
