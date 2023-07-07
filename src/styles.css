@@ -1,10 +1,9 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  margin: auto;
 }
 h1 {
-  color: green;
+  color: white;
 }
 
 .Category {
@@ -41,4 +40,12 @@ h1 {
   margin: auto;
   max-width: 500px;
   text-align: justify;
+}
+header {
+  background-color: green;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
 }
